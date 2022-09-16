@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "agileup"
-version = "0.0.6"
+version = "0.0.7"
 description = "State and data mangement tool for Future Agile CICD"
 authors = ["agileturret <Paul.Gilligan@agilesolutions.co.uk>"]
 license = "Apache-2.0"
