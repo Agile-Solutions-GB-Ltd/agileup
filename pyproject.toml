@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "agileup"
+version = "0.0.5"
+description = "Future Agile CICD tooling"
+authors = ["agileturret <Paul.Gilligan@agilesolutions.co.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1"
+PyYAML = "^5.4.1"
+prettytable = "^3.3.0"
+Fabric3 = "^1.14.post1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0"
+bumpversion = "^0.6"
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry_bumpversion.file."agileup/__init__.py"]
+
+[tool.poetry.scripts]
+agileup = "agileup.cli:cli"
