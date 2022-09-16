@@ -3,6 +3,12 @@ name = "agileup"
 version = "0.0.5"
 description = "Future Agile CICD tooling"
 authors = ["agileturret <Paul.Gilligan@agilesolutions.co.uk>"]
+license = "Apache-2.0"
+readme = "README.md"
+description = "State and data mangement tool for Future Agile CICD"
+authors = ["agileturret <Paul.Gilligan@agilesolutions.co.uk>"]
+homepage = "https://github.com/Agile-Solutions-GB-Ltd/agileup"
+repository = "https://github.com/Agile-Solutions-GB-Ltd/agileup.git"
 
 [tool.poetry.dependencies]
 python = "^3.9"
